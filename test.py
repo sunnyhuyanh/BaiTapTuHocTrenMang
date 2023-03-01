@@ -4,7 +4,7 @@ while True:
         player = int(input("Mời bạn chơi (1:Kéo 2:Búa 3:Bao): "))
         if player not in [1, 2, 3]:
             print("Lựa chọn không hợp lệ, mời bạn chọn lại!")
-        computer = randrange(0,2)
+        computer = randrange(0,3)
         if computer == 0:
             print("Máy chọn Kéo")
         if computer == 1:
